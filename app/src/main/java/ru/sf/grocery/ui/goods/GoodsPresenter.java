@@ -14,7 +14,7 @@ public class GoodsPresenter extends BasePresenter implements GoodsContract.Prese
 
     @Override
     public void requestData() {
-
+        // get data - TODO
     }
 
 }

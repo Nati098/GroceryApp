@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:listitem="@layout/basket_good_item_card"/>
 
         </android.support.constraint.ConstraintLayout>
 
@@ -126,6 +127,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:enabled="false"
             app:icon="@drawable/ic_card"
             app:iconSize="24dp"
             android:text="ОПЛАТИТЬ" />
