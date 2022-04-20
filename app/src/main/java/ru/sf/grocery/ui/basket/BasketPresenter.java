@@ -1,9 +1,8 @@
 package ru.sf.grocery.ui.basket;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import ru.sf.grocery.model.data.BasketGood;
+import ru.sf.grocery.model.data.BasketGoods;
 import ru.sf.grocery.model.datafiller.StaticDataKt;
 import ru.sf.grocery.ui.interfaces.BasePresenter;
 import ru.sf.grocery.ui.interfaces.BasketContract;
@@ -20,7 +19,7 @@ public class BasketPresenter extends BasePresenter implements BasketContract.Pre
     @Override
     public void requestData() {
         //get data - TODO
-        List<BasketGood> data = StaticDataKt.getBasketGoodsList();
+        List<BasketGoods> data = StaticDataKt.getBasketGoodsList();
 
         view.addGoodsToList(data);
     }

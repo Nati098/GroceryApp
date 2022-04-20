@@ -2,12 +2,12 @@ package ru.sf.grocery.ui.interfaces;
 
 import java.util.List;
 
-import ru.sf.grocery.model.data.BasketGood;
+import ru.sf.grocery.model.data.BasketGoods;
 
 public interface BasketContract {
 
     interface View extends BaseContract.View {
-        void addGoodsToList(List<BasketGood> goods);
+        void addGoodsToList(List<BasketGoods> goods);
         void clearAll();
         void payForOrder();
     }

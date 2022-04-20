@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ru.sf.grocery.R;
-import ru.sf.grocery.model.data.BasketGood;
+import ru.sf.grocery.model.data.BasketGoods;
 
 public class BasketGoodsAdapter extends RecyclerView.Adapter<BasketGoodsAdapter.ViewHolder> {
 
-    private List<BasketGood> goods = new ArrayList<>();
+    private List<BasketGoods> goods = new ArrayList<>();
 
     @NonNull
     @Override
@@ -35,7 +35,7 @@ public class BasketGoodsAdapter extends RecyclerView.Adapter<BasketGoodsAdapter.
         return goods.size();
     }
 
-    public void addItem(BasketGood item) {
+    public void addItem(BasketGoods item) {
         goods.add(item);
         notifyItemInserted(goods.size()-1);
     }
@@ -61,7 +61,7 @@ public class BasketGoodsAdapter extends RecyclerView.Adapter<BasketGoodsAdapter.
             totalPrice = itemView.findViewById(R.id.text_view_total);
         }
 
-        public void bind(BasketGood item) {
+        public void bind(BasketGoods item) {
             name.setText(item.getName());
             pricePerKg.setText(String.format(context.getString(R.string.price_per_kg_pattern), item.getPrice()));
             pricePerWeight.setText(String.format(context.getString(R.string.price_per_our_weight_pattern), item.getWeight(), item.getPrice()));

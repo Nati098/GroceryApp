@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import ru.sf.grocery.databinding.FragmentBasketBinding;
-import ru.sf.grocery.model.data.BasketGood;
+import ru.sf.grocery.model.data.BasketGoods;
 import ru.sf.grocery.ui.interfaces.BaseContract;
 import ru.sf.grocery.ui.interfaces.BaseFragment;
 import ru.sf.grocery.ui.interfaces.BasketContract;
@@ -63,7 +63,7 @@ public class BasketFragment extends BaseFragment<FragmentBasketBinding> implemen
     }
 
     @Override
-    public void addGoodsToList(List<BasketGood> goods) {
+    public void addGoodsToList(List<BasketGoods> goods) {
         goods.forEach(g -> goodsAdapter.addItem(g));
         setupViewByCount();
     }

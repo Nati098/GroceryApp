@@ -2,7 +2,7 @@ package ru.sf.grocery.model.data;
 
 import java.io.Serializable;
 
-public class Good implements Serializable {
+public class Goods implements Serializable {
 
     private String code;
     private String imgUrl;

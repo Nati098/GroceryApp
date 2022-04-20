@@ -5,13 +5,13 @@ import java.util.List;
 
 public class GoodsResponseData implements Serializable {
 
-    private List<Good> goods;
+    private List<Goods> goods;
 
-    public List<Good> getGoods() {
+    public List<Goods> getGoods() {
         return goods;
     }
 
-    public void setGoods(List<Good> goods) {
+    public void setGoods(List<Goods> goods) {
         this.goods = goods;
     }
 }

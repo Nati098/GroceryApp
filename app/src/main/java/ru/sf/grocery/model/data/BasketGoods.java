@@ -2,7 +2,7 @@ package ru.sf.grocery.model.data;
 
 import java.io.Serializable;
 
-public class BasketGood implements Serializable {
+public class BasketGoods implements Serializable {
     private String code;
     private String name;
     private double price;
