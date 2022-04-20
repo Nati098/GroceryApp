@@ -29,8 +29,10 @@ public class BasketFragment extends BaseFragment<FragmentBasketBinding> implemen
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        bindView();
         createPresenter();
+        bindView();
+
+        presenter.requestData();
     }
 
     @NonNull

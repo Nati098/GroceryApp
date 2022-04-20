@@ -10,4 +10,6 @@
     <color name="grey_200">#C3BEBE</color>
     <color name="grey_light">#989595</color>
     <color name="grey_dark">#4C4A4A</color>
+    <color name="green_light">#8CC14F</color>
+    <color name="yellow">#FFD54F</color>
 </resources>

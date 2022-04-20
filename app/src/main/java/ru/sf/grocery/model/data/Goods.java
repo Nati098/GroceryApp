@@ -2,13 +2,15 @@ package ru.sf.grocery.model.data;
 
 import java.io.Serializable;
 
+import ru.sf.grocery.model.CountryCode;
+
 public class Goods implements Serializable {
 
     private String code;
     private String imgUrl;
     private String name;
     private double price;
-    private String countryCode;
+    private CountryCode countryCode;
 
     public String getCode() {
         return code;
@@ -42,11 +44,11 @@ public class Goods implements Serializable {
         this.price = price;
     }
 
-    public String getCountryCode() {
+    public CountryCode getCountryCode() {
         return countryCode;
     }
 
-    public void setCountryCode(String countryCOde) {
+    public void setCountryCode(CountryCode countryCode) {
         this.countryCode = countryCode;
     }
 }

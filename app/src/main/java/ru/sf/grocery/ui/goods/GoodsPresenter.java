@@ -1,5 +1,6 @@
 package ru.sf.grocery.ui.goods;
 
+import ru.sf.grocery.model.datafiller.StaticDataKt;
 import ru.sf.grocery.ui.interfaces.BasePresenter;
 import ru.sf.grocery.ui.interfaces.GoodsContract;
 
@@ -15,6 +16,7 @@ public class GoodsPresenter extends BasePresenter implements GoodsContract.Prese
     @Override
     public void requestData() {
         // get data - TODO
+        view.showData(StaticDataKt.getGoodsList());
     }
 
 }
