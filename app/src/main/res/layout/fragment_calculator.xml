@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.basket.BasketFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Parrot"/>
+
+        <TextView
+            android:id="@+id/text_view_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="160,00 RUB / 12.0 KG"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/edit_text_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:hint="X KG" />
+
+    <com.davidmiguel.numberkeyboard.NumberKeyboard
+        android:id="@+id/num_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:numberKeyTextColor="@color/black"
+        app:numberKeyBackground="@drawable/square"
+        app:leftAuxBtnBackground="@drawable/square"
+        app:leftAuxBtnIcon="@drawable/ic_comma"
+        app:rightAuxBtnBackground="@drawable/square"
+        app:rightAuxBtnIcon="@drawable/ic_cancel"
+        app:keyboardType="custom"/>
+</LinearLayout>

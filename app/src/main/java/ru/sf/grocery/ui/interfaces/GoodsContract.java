@@ -8,7 +8,7 @@ public interface GoodsContract {
         void showData(GoodsResponseData responseData);
     }
 
-    interface Presenter extends BaseContract.Presenter {
+    interface Presenter {
         void requestData();
     }
 

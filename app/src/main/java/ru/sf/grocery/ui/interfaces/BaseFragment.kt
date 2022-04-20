@@ -6,9 +6,9 @@ import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
 
 
-abstract class BaseView<VB : ViewBinding> : BaseContract.View, Fragment() {
+abstract class BaseFragment<VB : ViewBinding> : BaseContract.View, Fragment() {
 
-    private var presenter: BaseContract.Presenter<BaseView<VB>>? = null
+    private var presenter: BaseContract.Presenter<BaseFragment<VB>>? = null
 
     private var _binding: VB? = null
     protected val binding get() = _binding!!

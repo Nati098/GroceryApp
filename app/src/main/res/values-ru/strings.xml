@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="drawer_open">Открыть меню</string>
+    <string name="drawer_close">Закрыть меню</string>
+
     <string name="nav_header_title">Евгений Степанов</string>
     <string name="nav_header_subtitle">estepanov91@gmail.com</string>
 

@@ -1,6 +1,5 @@
 package ru.sf.grocery.ui.interfaces;
 
-import ru.sf.grocery.ui.view.BaseContract;
 
 public abstract class BasePresenter implements BaseContract.Presenter<BaseContract.View> {
     private BaseContract.View _view = null;
