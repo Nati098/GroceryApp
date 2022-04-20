@@ -13,4 +13,8 @@
     <string name="menu_support_item">Поддержка</string>
     <string name="search">Поиск</string>
     <string name="exit">Выйти</string>
+
+    <string name="price_pattern">%.02f \u20bd</string>
+    <string name="price_per_kg_pattern">1 КГ x %.02f \u20bd</string>
+    <string name="price_per_our_weight_pattern">%.01f КГ x %.02f \u20bd</string>
 </resources>
