@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">GroceryApp</string>
+
+    <string name="nav_header_title">Евгений Степанов</string>
+    <string name="nav_header_subtitle">estepanov91@gmail.com</string>
+
+    <string name="menu_goods_item">Goods</string>
+    <string name="menu_history_item">History</string>
+    <string name="menu_reports_item">Reports</string>
+    <string name="menu_settings_item">Settings</string>
+    <string name="menu_support_item">Support</string>
+    <string name="search">Search</string>
+    <string name="exit">Exit</string>
+</resources>

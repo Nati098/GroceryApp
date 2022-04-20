@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_title">Евгений Степанов</string>
+    <string name="nav_header_subtitle">estepanov91@gmail.com</string>
+
+    <string name="menu_goods_item">Товары</string>
+    <string name="menu_history_item">История</string>
+    <string name="menu_reports_item">Отчеты</string>
+    <string name="menu_settings_item">Настройки</string>
+    <string name="menu_support_item">Поддержка</string>
+    <string name="search">Поиск</string>
+    <string name="exit">Выйти</string>
+</resources>
