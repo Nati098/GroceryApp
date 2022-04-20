@@ -14,4 +14,8 @@
     <string name="menu_support_item">Support</string>
     <string name="search">Search</string>
     <string name="exit">Exit</string>
+
+    <string name="price_pattern">%.02f RUB</string>
+    <string name="price_per_kg_pattern">1 KG x %.02f RUB</string>
+    <string name="price_per_our_weight_pattern">%.01f KG x %.02f RUB</string>
 </resources>

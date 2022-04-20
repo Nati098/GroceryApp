@@ -10,11 +10,13 @@
         <entry key="app/src/main/res/drawable/square.xml" value="0.2095" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/basket_goods_card.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/fragment_basket.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.2700096432015429" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/good_item_card.xml" value="0.20208333333333334" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.335" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.12653061224489795" />
         <entry key="app/src/main/res/menu/main.xml" value="0.15925925925925927" />
