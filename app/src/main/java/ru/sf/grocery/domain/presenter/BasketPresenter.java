@@ -1,11 +1,11 @@
-package ru.sf.grocery.ui.basket;
+package ru.sf.grocery.domain.presenter;
 
 import java.util.List;
 
 import ru.sf.grocery.model.data.BasketGoods;
 import ru.sf.grocery.model.datafiller.StaticDataKt;
-import ru.sf.grocery.ui.interfaces.BasePresenter;
-import ru.sf.grocery.ui.interfaces.BasketContract;
+import ru.sf.grocery.domain.presenter.BasePresenter;
+import ru.sf.grocery.domain.interfaces.BasketContract;
 
 public class BasketPresenter extends BasePresenter implements BasketContract.Presenter {
 

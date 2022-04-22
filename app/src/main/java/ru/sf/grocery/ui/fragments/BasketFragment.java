@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.basket;
+package ru.sf.grocery.ui.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,10 +15,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import ru.sf.grocery.databinding.FragmentBasketBinding;
+import ru.sf.grocery.domain.adapter.BasketGoodsAdapter;
+import ru.sf.grocery.domain.presenter.BasketPresenter;
 import ru.sf.grocery.model.data.BasketGoods;
-import ru.sf.grocery.ui.interfaces.BaseContract;
+import ru.sf.grocery.domain.interfaces.BaseContract;
 import ru.sf.grocery.ui.interfaces.BaseFragment;
-import ru.sf.grocery.ui.interfaces.BasketContract;
+import ru.sf.grocery.domain.interfaces.BasketContract;
 
 public class BasketFragment extends BaseFragment<FragmentBasketBinding> implements BasketContract.View {
 

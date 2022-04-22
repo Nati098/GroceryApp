@@ -1,8 +1,8 @@
-package ru.sf.grocery.ui.goods;
+package ru.sf.grocery.domain.presenter;
 
 import ru.sf.grocery.model.datafiller.StaticDataKt;
-import ru.sf.grocery.ui.interfaces.BasePresenter;
-import ru.sf.grocery.ui.interfaces.GoodsContract;
+import ru.sf.grocery.domain.presenter.BasePresenter;
+import ru.sf.grocery.domain.interfaces.GoodsContract;
 
 public class GoodsPresenter extends BasePresenter implements GoodsContract.Presenter {
 

@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.interfaces
+package ru.sf.grocery.domain.interfaces
 
 
 interface BaseContract {

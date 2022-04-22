@@ -1,9 +1,8 @@
-package ru.sf.grocery.ui.interfaces;
+package ru.sf.grocery.domain.interfaces;
 
 import java.util.List;
 
 import ru.sf.grocery.model.data.Goods;
-import ru.sf.grocery.model.data.GoodsResponseData;
 
 public interface GoodsContract {
 

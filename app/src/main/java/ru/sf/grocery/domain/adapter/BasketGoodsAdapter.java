@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.basket;
+package ru.sf.grocery.domain.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.goods;
+package ru.sf.grocery.ui.fragments;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -14,11 +14,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import ru.sf.grocery.databinding.FragmentGoodsBinding;
+import ru.sf.grocery.domain.adapter.GoodsAdapter;
+import ru.sf.grocery.domain.presenter.GoodsPresenter;
 import ru.sf.grocery.model.data.Goods;
-import ru.sf.grocery.model.data.GoodsResponseData;
-import ru.sf.grocery.ui.interfaces.BaseContract;
+import ru.sf.grocery.domain.interfaces.BaseContract;
 import ru.sf.grocery.ui.interfaces.BaseFragment;
-import ru.sf.grocery.ui.interfaces.GoodsContract;
+import ru.sf.grocery.domain.interfaces.GoodsContract;
 
 public class GoodsFragment extends BaseFragment<FragmentGoodsBinding> implements GoodsContract.View {
 

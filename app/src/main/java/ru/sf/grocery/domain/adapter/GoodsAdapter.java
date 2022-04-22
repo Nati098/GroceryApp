@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.goods;
+package ru.sf.grocery.domain.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ru.sf.grocery.R;
-import ru.sf.grocery.model.data.BasketGoods;
 import ru.sf.grocery.model.data.Goods;
 
 public class GoodsAdapter extends RecyclerView.Adapter<GoodsAdapter.ViewHolder> {

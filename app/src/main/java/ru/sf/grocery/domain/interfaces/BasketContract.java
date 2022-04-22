@@ -1,4 +1,4 @@
-package ru.sf.grocery.ui.interfaces;
+package ru.sf.grocery.domain.interfaces;
 
 import java.util.List;
 
